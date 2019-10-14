@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/single/single",
+    "pages/company/company",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/info/info",
+      "text": "灵蝶信",
+      "iconPath": "images/tarbar/key.png",
+      "selectedIconPath": "images/tarbar/key.png"
+    },
+    {
+      "pagePath":"pages/company/company",
+      "text":"市集",
+      "iconPath":"images/tarbar/key.png",
+      "selectedIconPath":"images/tarbar/key.png"
+    },
+    {
+      "pagePath":"pages/single/single",
+      "text":"个人信息",
+      "iconPath":"images/tarbar/key.png",
+      "selectedIconPath":"images/tarbar/key.png"
+    }]
+  }
+}

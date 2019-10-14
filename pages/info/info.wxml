@@ -1,0 +1,18 @@
+<!--pages/info/info.wxml-->
+<view class="topTarbar">
+  <view class="switchTab-class {{currentTab == 0? 'on':''}}" data-tab="0" bindtap="choose">最新消息</view>
+  <view class="switchTab-class {{currentTab == 1? 'on':''}}" data-tab="1" bindtap="choose">金融</view>
+  <view class="switchTab-class {{currentTab == 2? 'on':''}}" data-tab="2" bindtap="choose">媒体</view>
+  <view class="switchTab-class {{currentTab == 3? 'on':''}}" data-tab="3" bindtap="choose">地产</view>
+  <view class="switchTab-class {{currentTab == 4? 'on':''}}" data-tab="4" bindtap="choose">医药</view>
+  <view class="switchTab-class {{currentTab == 5? 'on':''}}" data-tab="5" bindtap="choose">传统</view>
+  <view class="switchTab-class {{currentTab == 6? 'on':''}}" data-tab="6" bindtap="choose">电力</view>
+  <view class="switchTab-class {{currentTab == 7? 'on':''}}" data-tab="7" bindtap="choose">旅游</view>
+</view>
+<scroll-view class="contents" scroll-y="true" style="height: 300rpx;" >
+  <view class="content">
+  <image class="back" src="/images/content/back.PNG"></image>
+  <view class="title">今日新闻</view>
+  </view>
+  <view class="background"></view>
+</scroll-view>
