@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    currentTab: 0,
+    currenttab: 0,
+
 
   },
 
@@ -65,11 +66,19 @@ Page({
 
   },
 
-  choose:function(e) {
+  changeTab:function(res) {
     var that = this;
-    if(this.data.currentTab == e.target.dataset.tab) {
+    if (res.target.dataset.index == that.data.currenttab) {
       return false;
     }
-    console.info(e.target.dataset.tab);
+    that.setData({
+      currenttab:res.target.dataset.index,
+    })
+  },
+
+  swiperChange:function(res) {
+    this.setData({
+      currenttab:res.detail.current,
+    })
   }
 })
