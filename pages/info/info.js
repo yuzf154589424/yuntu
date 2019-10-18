@@ -6,6 +6,7 @@ Page({
    */
   data: {
     currenttab: 0,
+    imageaddress: 'http://60.205.215.145/wximages/',
 
 
   },

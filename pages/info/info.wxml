@@ -5,15 +5,22 @@
   <view class="tab {{currenttab=='1'?'active':''}}" data-index="1" catchtap='changeTab'>最新消息</view>
   <view class="tab {{currenttab=='2'?'active':''}}" data-index="2" catchtap='changeTab'>最新消息</view>
   <view class="tab {{currenttab=='3'?'active':''}}" data-index="3" catchtap='changeTab'>最新消息</view>
-  <view class="tab {{currenttab=='4'?'active':''}}" data-index="4" catchtap='changeTab'>最新消息</view>
+  <!-- <view class="tab {{currenttab=='4'?'active':''}}" data-index="4" catchtap='changeTab'>最新消息</view>
   <view class="tab {{currenttab=='5'?'active':''}}" data-index="5" catchtap='changeTab'>最新消息</view>
   <view class="tab {{currenttab=='6'?'active':''}}" data-index="6" catchtap='changeTab'>最新消息</view>
   <view class="tab {{currenttab=='7'?'active':''}}" data-index="7" catchtap='changeTab'>最新消息</view>
-  <view class="tab {{currenttab=='8'?'active':''}}" data-index="8" catchtap='changeTab'>最新消息</view>
+  <view class="tab {{currenttab=='8'?'active':''}}" data-index="8" catchtap='changeTab'>最新消息</view> -->
 </scroll-view>
 <swiper class='contents' current='{{currenttab}}'  indicator-dots="{{false}}" bindchange='swiperChange' >
   <swiper-item>
-    <view>测试1</view>
+    <view>
+      <view class='title'>测试1</view>
+      <image class='titleBackImage' src='{{imageaddress}}test.png'></image>
+      <view class='content'>
+      <image class='contentBackImage'></image>
+      <view></view>
+      </view>
+    </view>
   </swiper-item>
   <swiper-item>
     <view>测试2</view>
